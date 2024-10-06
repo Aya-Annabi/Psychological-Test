@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychological Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Psychological Test</h1>
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <h3>1. How do you manage stress on a daily basis?</h3>
+                <label><input type="radio" name="q1" value="A" required> A. Yoga or meditation.</label><br>
+                <label><input type="radio" name="q1" value="B"> B. Talk to friends or family.</label><br>
+                <label><input type="radio" name="q1" value="C"> C. Keep it to yourself.</label><br>
+                <label><input type="radio" name="q1" value="D"> D. Switch activities.</label><br>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <h3>2. You feel exhausted, what do you do?</h3>
+                <label><input type="radio" name="q2" value="A" required> A. Get more sleep.</label><br>
+                <label><input type="radio" name="q2" value="B"> B. Engage in a physical activity.</label><br>
+                <label><input type="radio" name="q2" value="C"> C. Take vitamins or supplements.</label><br>
+                <label><input type="radio" name="q2" value="D"> D. Power through it.</label><br>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <h3>3. What is your approach to work?</h3>
+                <label><input type="radio" name="q3" value="A" required> A. Work is essential, I can't do without it.</label><br>
+                <label><input type="radio" name="q3" value="B"> B. It is important, but I balance it with other things.</label><br>
+                <label><input type="radio" name="q3" value="C"> C. I work to enjoy it, not just for the sake of it.</label><br>
+                <label><input type="radio" name="q3" value="D"> D. It's an option, not a necessity.</label><br>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <h3>4. How do you respond to last-minute plans?</h3>
+                <label><input type="radio" name="q4" value="A" required> A. Accept right away.</label><br>
+                <label><input type="radio" name="q4" value="B"> B. Decide at the last minute, depending on how you feel.</label><br>
+                <label><input type="radio" name="q4" value="C"> C. You already have plans.</label><br>
+                <label><input type="radio" name="q4" value="D"> D. Refuse; your relaxation plans come first.</label><br>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <h3>5. How do you deal with challenges at work?</h3>
+                <label><input type="radio" name="q5" value="A" required> A. Alert your supervisors.</label><br>
+                <label><input type="radio" name="q5" value="B"> B. Resign immediately.</label><br>
+                <label><input type="radio" name="q5" value="C"> C. Discuss with your colleagues.</label><br>
+                <label><input type="radio" name="q5" value="D"> D. Keep quiet and endure it.</label><br>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <h3>6. How do you react to an unexpected situation with friends?</h3>
+                <label><input type="radio" name="q6" value="A" required> A. Stay calm and adjust to the situation.</label><br>
+                <label><input type="radio" name="q6" value="B"> B. Express frustration but quickly forgive.</label><br>
+                <label><input type="radio" name="q6" value="C"> C. Check on your friend and make sure everything is okay.</label><br>
+                <label><input type="radio" name="q6" value="D"> D. Get angry and refuse to talk for a while.</label><br>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <h3>7. How do you usually spend your vacations?</h3>
+                <label><input type="radio" name="q7" value="A" required> A. Partying with friends.</label><br>
+                <label><input type="radio" name="q7" value="B"> B. Exploring adventure destinations.</label><br>
+                <label><input type="radio" name="q7" value="C"> C. Relaxing with family in a quiet place.</label><br>
+                <label><input type="radio" name="q7" value="D"> D. A luxury destination with a small group.</label><br>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <h3>8. You are running late for an important meeting, how do you react?</h3>
+                <label><input type="radio" name="q8" value="A" required> A. Apologize as soon as you arrive.</label><br>
+                <label><input type="radio" name="q8" value="B"> B. Call or text to inform them.</label><br>
+                <label><input type="radio" name="q8" value="C"> C. Feel embarrassed for being late.</label><br>
+                <label><input type="radio" name="q8" value="D"> D. Take your time, there's no need to rush.</label><br>
+            </div>
+
+            <button type="submit">See Results</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
